@@ -22,8 +22,6 @@ typedef struct
 } base64_encodestate;
 
 
-
-
 /*
 cencoder.c - c source to a base64 encoding algorithm implementation
 
