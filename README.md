@@ -1,16 +1,15 @@
 # secret-santa
-Secret santa program in C
+Simple secret santa program in C, outputting a base64-encoded list of recievers that can be pasted to the corresponding givers.
 
 ## Usage
 
 ```bash
-gcc -o secret_santa main.c
-echo "albert bobby colin" | ./secret_santa
-
+> gcc -o secret_santa main.c
+> echo "albert bobby colin" | ./secret_santa
 Seed: 12345
-colin: <i>(base 64 encoding of the word colin, so that you can copy this output to colin without accidentally knowing who the receipient is)</i>
-albert: <i>(base 64 encoding of the word bobby, so that you can copy this output to albert without accidentally knowing who the receipient is)</i>
-bobby: <i>(base 64 encoding of the word albert, so that you can copy this output to bobby without accidentally knowing who the receipient is)</i>
+colin: (base 64 encoding of the word bobby)
+albert: (base 64 encoding of the word colin)
+bobby: (base 64 encoding of the word albert)
 ```
 
 ### Arguments
