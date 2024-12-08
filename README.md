@@ -1,6 +1,8 @@
 # secret-santa
 Simple secret santa program in C, outputting a base64-encoded list of recievers that can be pasted to the corresponding givers.
 
+Using libb64's impl of encoding.
+
 ## Usage
 
 ```bash
